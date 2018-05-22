@@ -111,9 +111,7 @@ class Suggester {
 ////small example//////
 const suggester = new Suggester();
 suggester.add(peopleData);
-console.log(suggester.topNSearch("Sp", 5));
-
-
+console.log(suggester.topNSearch("S", 5));
 
 const DropdownItem = (props) => {
   return <Dropdown.Item
@@ -159,6 +157,7 @@ class PersonDropdown extends Component {
     );
   }
 }
+
 
 class App extends Component {
   render() {
